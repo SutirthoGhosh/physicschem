@@ -649,10 +649,6 @@ function Footer() {
     <footer className="bg-card border-t border-border">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2 font-bold text-lg text-navy-deep">
-            <Atom className="h-5 w-5 text-orange-accent" />
-            Your Institute
-          </div>
           <nav className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
             {NAV_LINKS.map((link) => (
               <button
