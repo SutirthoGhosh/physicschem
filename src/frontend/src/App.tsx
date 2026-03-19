@@ -609,7 +609,7 @@ function Contact() {
                 href="tel:+919876543210"
                 className="text-lg font-bold text-foreground hover:text-navy-mid transition-colors"
               >
-                +91 98765 43210
+                +91 00000 00000
               </a>
             </div>
           </div>
