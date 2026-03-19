@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+
+    /* Navy blue primary — #0F3C5C */
+    --primary: 0.28 0.088 236;
+    --primary-foreground: 0.985 0 0;
+
+    /* Mid blue secondary — #1F5B84 */
+    --secondary: 0.4 0.095 236;
+    --secondary-foreground: 0.985 0 0;
+
+    /* Orange accent — #F2A23A */
+    --accent: 0.77 0.155 60;
+    --accent-foreground: 0.985 0 0;
+
+    /* Page background — #F3F5F7 */
+    --background: 0.965 0.004 236;
+    --foreground: 0.13 0.025 236;
+
+    /* White card */
+    --card: 1 0 0;
+    --card-foreground: 0.13 0.025 236;
+
+    --popover: 1 0 0;
+    --popover-foreground: 0.13 0.025 236;
+
+    /* Muted — subtle gray */
+    --muted: 0.94 0.003 236;
+    --muted-foreground: 0.52 0.02 236;
+
+    /* Border */
+    --border: 0.87 0.005 236;
+    --input: 0.87 0.005 236;
+    --ring: 0.4 0.095 236;
+
+    /* Destructive */
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0 0;
+
+    /* Charts */
+    --chart-1: 0.646 0.222 41.116;
+    --chart-2: 0.6 0.118 184.704;
+    --chart-3: 0.398 0.07 227.392;
+    --chart-4: 0.828 0.189 84.429;
+    --chart-5: 0.769 0.188 70.08;
+
+    /* Sidebar */
+    --sidebar: 0.985 0 0;
+    --sidebar-foreground: 0.145 0 0;
+    --sidebar-primary: 0.28 0.088 236;
+    --sidebar-primary-foreground: 0.985 0 0;
+    --sidebar-accent: 0.97 0 0;
+    --sidebar-accent-foreground: 0.205 0 0;
+    --sidebar-border: 0.922 0 0;
+    --sidebar-ring: 0.708 0 0;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-poppins;
+  }
+}
