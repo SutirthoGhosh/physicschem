@@ -116,16 +116,6 @@ function Navbar() {
     <header className="sticky top-0 z-50 bg-white shadow-sm border-b border-border">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16">
-          <button
-            type="button"
-            onClick={() => scrollTo("hero")}
-            className="flex items-center gap-2 font-bold text-xl text-navy-deep hover:opacity-80 transition-opacity"
-            data-ocid="nav.link"
-          >
-            <Atom className="h-6 w-6 text-orange-accent" />
-            <span>Your Institute</span>
-          </button>
-
           <nav className="hidden md:flex items-center gap-6">
             {NAV_LINKS.map((link) => (
               <button
