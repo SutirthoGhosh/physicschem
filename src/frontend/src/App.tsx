@@ -677,20 +677,6 @@ function Footer() {
             ))}
           </nav>
         </div>
-        <div className="mt-6 pt-5 border-t border-border flex flex-col md:flex-row items-center justify-between gap-2 text-xs text-muted-foreground">
-          <span>© {year} Your Institute. All rights reserved.</span>
-          <span>
-            Built with ❤️ using{" "}
-            <a
-              href={`https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(typeof window !== "undefined" ? window.location.hostname : "")}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:text-foreground transition-colors"
-            >
-              caffeine.ai
-            </a>
-          </span>
-        </div>
       </div>
     </footer>
   );
