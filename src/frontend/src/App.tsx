@@ -358,7 +358,7 @@ const SERVICES = [
   },
   {
     icon: ClipboardCheck,
-    title: "Weekly Mock Tests",
+    title: "Fortnightly Mock Tests",
     desc: "Regular timed tests simulating exam conditions to build speed, accuracy, and confidence under pressure.",
   },
   {
